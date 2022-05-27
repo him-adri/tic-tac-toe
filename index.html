@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <!-- Link for css -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- <p class="name">Tic Tac Toe</p> -->
+    <marquee behavior="alternate" direction="right">Tic Tac Toe</marquee>
+    <div class="container">
+        <div class="board" id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+    </div>
+
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+        <button id="restart">Restart</button>
+    </div>
+</body>
+
+
+<script src="./script.js"></script>
+</html>
